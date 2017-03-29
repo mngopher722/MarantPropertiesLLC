@@ -26,5 +26,11 @@ namespace MarantPropertiesLLC.Controllers
 
             return View();
         }
+        public ActionResult Gallery()
+        {
+            ViewBag.Message = "Apartment Gallery";
+
+            return View();
+        }
     }
 }
